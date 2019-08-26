@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D23B6D332302984E006D9590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B6D322302984E006D9590 /* AppDelegate.swift */; };
+		D23B6D352302984E006D9590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B6D342302984E006D9590 /* ViewController.swift */; };
+		D23B6D382302984F006D9590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23B6D362302984F006D9590 /* Main.storyboard */; };
+		D23B6D3A23029882006D9590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23B6D3923029882006D9590 /* Assets.xcassets */; };
+		D23B6D3D23029882006D9590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23B6D3B23029882006D9590 /* LaunchScreen.storyboard */; };
+		D23B6D4823029884006D9590 /* WalkieTalkieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B6D4723029884006D9590 /* WalkieTalkieTests.swift */; };
+		D23B6D5323029884006D9590 /* WalkieTalkieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B6D5223029884006D9590 /* WalkieTalkieUITests.swift */; };
+		D23B6D6323029AC0006D9590 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23B6D6123029AC0006D9590 /* AVFoundation.framework */; };
+		D23B6D6423029AC0006D9590 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23B6D6223029AC0006D9590 /* AVKit.framework */; };
+		D23B6D6823029AE4006D9590 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23B6D6523029AE4006D9590 /* CoreMedia.framework */; };
+		D23B6D6923029AE4006D9590 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23B6D6623029AE4006D9590 /* CoreAudio.framework */; };
+		D23B6D6A23029AE4006D9590 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23B6D6723029AE4006D9590 /* CoreAudioKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23B6D4423029884006D9590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23B6D272302984D006D9590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23B6D2E2302984E006D9590;
+			remoteInfo = WalkieTalkie;
+		};
+		D23B6D4F23029884006D9590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23B6D272302984D006D9590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23B6D2E2302984E006D9590;
+			remoteInfo = WalkieTalkie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D23B6D2F2302984E006D9590 /* WalkieTalkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkieTalkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23B6D322302984E006D9590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D23B6D342302984E006D9590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D23B6D372302984F006D9590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D23B6D3923029882006D9590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D23B6D3C23029882006D9590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D23B6D3E23029882006D9590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23B6D4323029884006D9590 /* WalkieTalkieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkieTalkieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23B6D4723029884006D9590 /* WalkieTalkieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkieTalkieTests.swift; sourceTree = "<group>"; };
+		D23B6D4923029884006D9590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23B6D4E23029884006D9590 /* WalkieTalkieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkieTalkieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23B6D5223029884006D9590 /* WalkieTalkieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkieTalkieUITests.swift; sourceTree = "<group>"; };
+		D23B6D5423029884006D9590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23B6D6123029AC0006D9590 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D23B6D6223029AC0006D9590 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D23B6D6523029AE4006D9590 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D23B6D6623029AE4006D9590 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		D23B6D6723029AE4006D9590 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23B6D2C2302984E006D9590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B6D6823029AE4006D9590 /* CoreMedia.framework in Frameworks */,
+				D23B6D6923029AE4006D9590 /* CoreAudio.framework in Frameworks */,
+				D23B6D6A23029AE4006D9590 /* CoreAudioKit.framework in Frameworks */,
+				D23B6D6323029AC0006D9590 /* AVFoundation.framework in Frameworks */,
+				D23B6D6423029AC0006D9590 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B6D4023029884006D9590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B6D4B23029884006D9590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D23B6D262302984D006D9590 = {
+			isa = PBXGroup;
+			children = (
+				D23B6D312302984E006D9590 /* WalkieTalkie */,
+				D23B6D4623029884006D9590 /* WalkieTalkieTests */,
+				D23B6D5123029884006D9590 /* WalkieTalkieUITests */,
+				D23B6D302302984E006D9590 /* Products */,
+				D23B6D6023029ABF006D9590 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D23B6D302302984E006D9590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23B6D2F2302984E006D9590 /* WalkieTalkie.app */,
+				D23B6D4323029884006D9590 /* WalkieTalkieTests.xctest */,
+				D23B6D4E23029884006D9590 /* WalkieTalkieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23B6D312302984E006D9590 /* WalkieTalkie */ = {
+			isa = PBXGroup;
+			children = (
+				D23B6D322302984E006D9590 /* AppDelegate.swift */,
+				D23B6D342302984E006D9590 /* ViewController.swift */,
+				D23B6D362302984F006D9590 /* Main.storyboard */,
+				D23B6D3923029882006D9590 /* Assets.xcassets */,
+				D23B6D3B23029882006D9590 /* LaunchScreen.storyboard */,
+				D23B6D3E23029882006D9590 /* Info.plist */,
+			);
+			path = WalkieTalkie;
+			sourceTree = "<group>";
+		};
+		D23B6D4623029884006D9590 /* WalkieTalkieTests */ = {
+			isa = PBXGroup;
+			children = (
+				D23B6D4723029884006D9590 /* WalkieTalkieTests.swift */,
+				D23B6D4923029884006D9590 /* Info.plist */,
+			);
+			path = WalkieTalkieTests;
+			sourceTree = "<group>";
+		};
+		D23B6D5123029884006D9590 /* WalkieTalkieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D23B6D5223029884006D9590 /* WalkieTalkieUITests.swift */,
+				D23B6D5423029884006D9590 /* Info.plist */,
+			);
+			path = WalkieTalkieUITests;
+			sourceTree = "<group>";
+		};
+		D23B6D6023029ABF006D9590 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23B6D6623029AE4006D9590 /* CoreAudio.framework */,
+				D23B6D6723029AE4006D9590 /* CoreAudioKit.framework */,
+				D23B6D6523029AE4006D9590 /* CoreMedia.framework */,
+				D23B6D6123029AC0006D9590 /* AVFoundation.framework */,
+				D23B6D6223029AC0006D9590 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23B6D2E2302984E006D9590 /* WalkieTalkie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23B6D5723029884006D9590 /* Build configuration list for PBXNativeTarget "WalkieTalkie" */;
+			buildPhases = (
+				D23B6D2B2302984E006D9590 /* Sources */,
+				D23B6D2C2302984E006D9590 /* Frameworks */,
+				D23B6D2D2302984E006D9590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalkieTalkie;
+			productName = WalkieTalkie;
+			productReference = D23B6D2F2302984E006D9590 /* WalkieTalkie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23B6D4223029884006D9590 /* WalkieTalkieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23B6D5A23029884006D9590 /* Build configuration list for PBXNativeTarget "WalkieTalkieTests" */;
+			buildPhases = (
+				D23B6D3F23029884006D9590 /* Sources */,
+				D23B6D4023029884006D9590 /* Frameworks */,
+				D23B6D4123029884006D9590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23B6D4523029884006D9590 /* PBXTargetDependency */,
+			);
+			name = WalkieTalkieTests;
+			productName = WalkieTalkieTests;
+			productReference = D23B6D4323029884006D9590 /* WalkieTalkieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D23B6D4D23029884006D9590 /* WalkieTalkieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23B6D5D23029884006D9590 /* Build configuration list for PBXNativeTarget "WalkieTalkieUITests" */;
+			buildPhases = (
+				D23B6D4A23029884006D9590 /* Sources */,
+				D23B6D4B23029884006D9590 /* Frameworks */,
+				D23B6D4C23029884006D9590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23B6D5023029884006D9590 /* PBXTargetDependency */,
+			);
+			name = WalkieTalkieUITests;
+			productName = WalkieTalkieUITests;
+			productReference = D23B6D4E23029884006D9590 /* WalkieTalkieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23B6D272302984D006D9590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sagar Nikam";
+				TargetAttributes = {
+					D23B6D2E2302984E006D9590 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					D23B6D4223029884006D9590 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D23B6D2E2302984E006D9590;
+					};
+					D23B6D4D23029884006D9590 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = D23B6D2E2302984E006D9590;
+					};
+				};
+			};
+			buildConfigurationList = D23B6D2A2302984D006D9590 /* Build configuration list for PBXProject "WalkieTalkie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D23B6D262302984D006D9590;
+			productRefGroup = D23B6D302302984E006D9590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23B6D2E2302984E006D9590 /* WalkieTalkie */,
+				D23B6D4223029884006D9590 /* WalkieTalkieTests */,
+				D23B6D4D23029884006D9590 /* WalkieTalkieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23B6D2D2302984E006D9590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B6D3D23029882006D9590 /* LaunchScreen.storyboard in Resources */,
+				D23B6D3A23029882006D9590 /* Assets.xcassets in Resources */,
+				D23B6D382302984F006D9590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B6D4123029884006D9590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B6D4C23029884006D9590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23B6D2B2302984E006D9590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B6D352302984E006D9590 /* ViewController.swift in Sources */,
+				D23B6D332302984E006D9590 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B6D3F23029884006D9590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B6D4823029884006D9590 /* WalkieTalkieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23B6D4A23029884006D9590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B6D5323029884006D9590 /* WalkieTalkieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23B6D4523029884006D9590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23B6D2E2302984E006D9590 /* WalkieTalkie */;
+			targetProxy = D23B6D4423029884006D9590 /* PBXContainerItemProxy */;
+		};
+		D23B6D5023029884006D9590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23B6D2E2302984E006D9590 /* WalkieTalkie */;
+			targetProxy = D23B6D4F23029884006D9590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23B6D362302984F006D9590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23B6D372302984F006D9590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D23B6D3B23029882006D9590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23B6D3C23029882006D9590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23B6D5523029884006D9590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D23B6D5623029884006D9590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23B6D5823029884006D9590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYEA883QX;
+				INFOPLIST_FILE = WalkieTalkie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.figmd.WalkieTalkie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D23B6D5923029884006D9590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYEA883QX;
+				INFOPLIST_FILE = WalkieTalkie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.figmd.WalkieTalkie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D23B6D5B23029884006D9590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYEA883QX;
+				INFOPLIST_FILE = WalkieTalkieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.figmd.WalkieTalkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkieTalkie.app/WalkieTalkie";
+			};
+			name = Debug;
+		};
+		D23B6D5C23029884006D9590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYEA883QX;
+				INFOPLIST_FILE = WalkieTalkieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.figmd.WalkieTalkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkieTalkie.app/WalkieTalkie";
+			};
+			name = Release;
+		};
+		D23B6D5E23029884006D9590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYEA883QX;
+				INFOPLIST_FILE = WalkieTalkieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.figmd.WalkieTalkieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkieTalkie;
+			};
+			name = Debug;
+		};
+		D23B6D5F23029884006D9590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZYEA883QX;
+				INFOPLIST_FILE = WalkieTalkieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.figmd.WalkieTalkieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalkieTalkie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23B6D2A2302984D006D9590 /* Build configuration list for PBXProject "WalkieTalkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23B6D5523029884006D9590 /* Debug */,
+				D23B6D5623029884006D9590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23B6D5723029884006D9590 /* Build configuration list for PBXNativeTarget "WalkieTalkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23B6D5823029884006D9590 /* Debug */,
+				D23B6D5923029884006D9590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23B6D5A23029884006D9590 /* Build configuration list for PBXNativeTarget "WalkieTalkieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23B6D5B23029884006D9590 /* Debug */,
+				D23B6D5C23029884006D9590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23B6D5D23029884006D9590 /* Build configuration list for PBXNativeTarget "WalkieTalkieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23B6D5E23029884006D9590 /* Debug */,
+				D23B6D5F23029884006D9590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23B6D272302984D006D9590 /* Project object */;
+}
